@@ -11,9 +11,9 @@ import ReactDOM from "react-dom";
 
 const fName = "Orin";
 const lName = "Fletcher";
-const year = new Date();
+const currentDate = new Date();
 
-const currentYear = year.getFullYear();
+const currentYear = currentDate.getFullYear();
 
 ReactDOM.render(
   <div>
